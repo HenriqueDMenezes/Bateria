@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+body{
+  margin:0;
+}
+#card{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;  
+  background-color: #1F2630;
+  width: 20%;
+  height: 35%;
+  border-radius: 30px;
+  color:white;
+  margin-left:35%;
+  margin-top: 20%;
+
+}
+#avaliacao{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.btn{
+  background-color: #272D37;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  border: 0px;
+  color:white
+}
+
+.btnEnv{
+  margin: 20px 0px 20px 0px;
+  width: 290px;
+  height: 35px;
+  border-radius:10px;
+  font-size:20px;
+  background-color: #F97A10;
+  border: 0px;
+}
+p{
+  text-align:justify;
+  margin-right: 15px;
+  font-family: 'Heebo', sans-serif;
+}
+h3{
+  font-family: 'Barlow', sans-serif;}
+.texto{
+  margin-left: 25px;
+}
